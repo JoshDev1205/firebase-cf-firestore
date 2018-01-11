@@ -1,0 +1,19 @@
+{
+  "name": "firebase-cf-firestore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.3"
+  },
+  "dependencies": {
+    "firebase-admin": "^5.7.0",
+    "nodemailer": "^4.4.1"
+  }
+}

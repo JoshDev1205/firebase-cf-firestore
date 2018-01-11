@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contactanos</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+    <!-- Firebase JS -->
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase-firestore.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+  <div class="hero is-primary is-fullheight is-bold">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="column is-4 is-offset-4">
+          <h3 class="title has-text-grey-dark">Contactanos</h3>
+          <div class="box">
+            <form action="">
+              <div class="field">
+                <div class="control">
+                  <input id="name" type="text" class="input" placeholder="Nombres">
+                </div>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <input id="email" type="email" class="input" placeholder="Correo">
+                </div>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <textarea id="message" name="Mensaje" id="" cols="30" rows="5" placeholder="Deja tu Mensaje" class="textarea"></textarea>
+                </div>
+              </div>
+              <a id="send" class="button is-block is-info is-medium">Enviar Mensaje</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- My Script -->
+<script src="./index.js"></script>
+</body>
+</html>
